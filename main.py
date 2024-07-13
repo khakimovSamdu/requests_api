@@ -24,4 +24,6 @@ def get_users_gender(n: int, gender: str):
         else:
             print('Status error')
     return users
-print(get_users_gender(10, 'male'))
+users = (get_users_gender(10, 'male'))
+print(users)
+print(len(users))
